@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculate Weight on other planets</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1> Calculate your weight on:<br> Mercury, Venus, Mars, Jupiter, or Saturn.</h1>
+        <div class="labels">
+            <label class="lab-box1" for="weight">Enter your Earth weight:</label>
+            <input class="input-box1" type="text" id="weight" />
+
+            <label class="lab-box2" for="pla-net">Enter planet name:</label>
+            <input class="input-box2" type="text" id="pla-net">
+        </div>
+
+        <div class="btn-cont">
+            <button class="btn" onclick="calculateWeight()">calculate weight</button>
+        </div>
+        
+        <div class="result-box">
+            <p id="weight-conver"></p>
+        </div>
+    </div>
+</body>
+</html>
