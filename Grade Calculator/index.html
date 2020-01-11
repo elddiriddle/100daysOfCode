@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grade Calculator</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url(architecture-building-campus-clark-hall-207684.jpg);">
+    <div class="wrapper">
+        <h1>Use this form to calculate your final grade.</h1>
+        <div class="labels">
+            <label class="lab-box1" for="midterm">Enter midterm grade:</label>
+            <input class="input-box1" type="number" id="midterm" min="0" max="100" />
+            <!-- <span class="validity"></span> -->
+    
+            <label class="lab-box2"for="final">Enter your final project grade:</label>
+            <input class="input-box2" type="number" id="final" min="0" max="100" />
+            <!-- <span class="validity"></span> -->
+    
+            <label class="lab-box3" for="homework">Enter your homework grade:</label>
+            <input class="input-box3"type="number" id="homework" min="0" max="100" />
+            <!-- <span class="validity"></span> -->
+        </div>
+        <div class="btn-cont">
+            <button class="btn" onclick="finalGrade()">calculate grade</button>
+        </div>
+        
+        <div class="result-box">
+            <p id="avg-grade"></p>
+            <p id="letter-grade"></p>
+        </div>
+        
+
+    </div>
+</body>
+</html>
+
