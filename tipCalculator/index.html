@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            <h1>Tip Calculator</h1>
+        </div>
+        <div class="input">
+            <p>Enter your total bill amount</p>
+            <input class="inputBox" id="bill" type="text">
+        </div>
+        <div class="btns">
+            <button onclick="bad()" class="btn1">Bad 5%</button>
+            <button onclick="ok()" class="btn2">ok 15%</button>
+            <button onclick="standard()" class="btn3">standard 18%</button>
+            <button onclick="good()" class="btn4">good 20%</button>
+            <button onclick="excellent()" class="btn5">excellent 30%</button>            
+        </div>
+        <span id="calTip"></span>
+        <span id="total"></span>
+    </div> <!--end wrapper --> 
+    <script src="script.js"></script>
+</body>
+</html>
