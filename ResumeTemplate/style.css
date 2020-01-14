@@ -1,0 +1,126 @@
+* {
+    margin:0;
+    border:0;
+    padding:0;
+}
+body {
+    font-family: 'Garamond', sans-serif;
+    background-color: #d8dbdb;
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2%;
+    color: #565859;
+    }
+    .wrapper{
+        background: #f6faff;
+        margin: 10px 0px;
+    }
+    .inner-wrapper{
+        margin: 30px 30px;
+        padding-bottom: 30px;
+    }
+
+    h1{
+        text-align:center;
+        padding: 20px 0px;
+        color:black;        
+    }
+    .contact-info{
+        text-align:center;
+    }
+    .social-block {
+        text-align: center;
+        margin-top: 2%;        
+    }
+
+    .social {
+        list-style-type: none;
+        display: inline;
+    }
+
+    .social li {
+        display: inline;
+    }
+    .title{
+        text-align: center;
+    }
+    .title-descrip{
+        text-align: center;
+        font-weight: 800;
+    }
+    .description{
+        text-justify:distribute;
+        padding: 0px 8px;            
+    }
+    .core-comp{
+        text-align: center;
+        background-color: #d8dbdb;
+        border: 1px solid black;
+        color:black;
+        font-weight: 800;
+    }
+    .section-header{
+        text-align: center;
+        background-color: #d8dbdb;
+        border: 1px solid black;
+        color:black;
+        font-weight: 800;
+    }
+    .company-table{
+        width: 100%;
+        margin-top: 20px;
+        border-top: 1px solid black;
+        font-weight: 800;
+        /* text-decoration: underline; */
+    }
+    
+    .date-range{            
+        text-align: right;
+    }
+
+    .work-title{
+        margin-top: 10px;
+        color:black;
+        font-weight: 800;
+    }
+    
+    .accomplishments{
+        margin-top: 20px;
+        font-style: italic;
+        font-weight: 800;
+    }
+
+    .accomplishment-list{
+        padding-left: 40px;
+    }
+    .education-table{
+        width: 100%;
+        margin-top: 10px;
+        font-weight: 800;
+        /* border-bottom: 1px solid black; */
+        /* text-decoration: underline; */
+    }        
+    .education-name{            
+        text-align: right;
+    }
+
+    .certifications{
+        margin-top: 30px;
+        text-decoration: underline;
+        font-weight: 800;
+    }
+
+    .cert-list{
+        padding-left: 40px;
+    }
+
+    .technical-skills{
+        margin-top: 30px;
+        text-decoration: underline;
+        font-weight: 800;
+    }
+
+    .tech-list{
+        padding-left: 40px;
+    }
