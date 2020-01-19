@@ -1,0 +1,42 @@
+body{
+    background-color: blue;
+}
+.project-boxes {
+    /* color: var(--light); */
+    color: white;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+    /* height: 400px;
+    width: 300px; */
+}
+
+.project-boxes > div {
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+    
+    box-shadow: var(--shadow);
+    background-color:rgb(21, 141, 189, .50);
+    text-align: center;
+    padding: 1.5em;
+    border-style: solid;
+    border-width: thin;
+    border-color: #f5ebe6;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.card{
+transition: transform .2s;
+}
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 16px 16px 0 rgba(245, 235, 230, 0.5);
+    box-shadow: 0 16px 16px 0 #fd620f;
+}
+ 
+.badge{
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
