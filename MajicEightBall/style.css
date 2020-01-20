@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    /* border: 0; */
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.wrapper{
+    background: url(eight-ball.png) center / cover;   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;    
+    height: 30rem;    
+    background-color:#158dbd00;
+    border-radius: 50%;    
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #f5ebe6;
+    margin-bottom: 6rem;
+}
+
+#answer{
+    color: #f5ebe6;
+    font-size: 1.5rem;
+    background-color:#092936;
+    border-radius: 20px 20px 20px 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-right-color: #fd620f;
+    border-left-color: #fd620f;
+    padding: 1rem;
+}
+
+.input-box{
+    margin-top: 5rem;
+    height: 2rem;
+    width: 20rem;
+    font-size: 1.5rem;
+    border-width: 2px;
+    border-radius: 15px;
+    border-right-color: #fd620f;
+    border-left-color: #fd620f;
+}
+
+.btn {
+    background: #fd620f;
+    color: #092936;
+    margin: 1rem;
+    padding: 0.6rem .3rem;
+    text-decoration: none;
+    border-radius: 20px 20px 20px 20px;
+    width: 110px; 
+    outline: none;  
+}
+
+.btn:hover {
+    background:#092936;
+    color: white;
+    transform: scale(1);
+    
+}
