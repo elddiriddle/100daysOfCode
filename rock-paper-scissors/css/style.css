@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --primary-color: #003699;
+    --dark-color: #333333;
+    --light-color: #f4f4f4;
+    --lose-color: #dc3545;
+    --win-color: #28a745;
+    
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Robato', sans-serif;
+    line-height: 1.6;
+    color: var(--dark-color);
+}
+
+.container {
+    max-width : 1100px;
+    margin: auto;
+    /* overflow: hidden; */
+    padding: 0 2em;
+    text-align: center;
+}
+
+.restart-btn {
+    display: inline-block;
+    background: var(--light-color);
+    color: #333333;
+    padding: .4em 1.3em;
+    cursor: pointer;
+    outline:none;
+    border: none;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+}
+
+.restart-btn:hover {
+    background: var(--primary-color);
+    color: #ffff;
+}
+
+.header {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+
+.header h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+h2 {
+    color: var(--light-color);
+}
+
+.score {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    color: #ffff;
+}
+
+.score p:first-child {
+    font-size: 2rem;
+    background-color: #333333;
+    border-radius: 20px;
+}
+
+.score p:last-child {
+    font-size: 2rem;
+    background-color: #333333;
+    border-radius: 20px;
+}
+
+.choices {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+    /* padding: 10px; */
+    /* border-style: solid;
+    border-width: thin;
+    border-color: #ffff; */
+}
+
+
+.choice {
+    cursor: pointer;
+}
+
+.choice:hover {
+    color: var(--primary-color);    
+}
+
+.text-win {
+    color: var(--win-color);
+}
+
+.text-lose {
+    color: var(--lose-color);
+}
+
+@media(max-width: 700px) {
+    .choices {
+        font-size: 110px;        
+    }
+    .header h1 {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 500px) {
+    .choices {
+        font-size: 80px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: .1rem;
+    }
+    .header h1 {
+        font-size: 2rem;
+    }
+    .score p:last-child {
+        font-size: 1.1em; 
+        padding-top: 5px;
+    }
+    .score p:first-child {
+        font-size: 1.1em; 
+        padding-top: 5px;
+    }
+}
+
