@@ -1,8 +1,13 @@
-body{
-    background-color: wheat;
+:root {
+    --lgtblue: #367f9d;
+    --primary: #158dbd;
+    --drkblue: #092936;    
+    --light: #f5ebe6;
+    --orange: #fd620f;
 }
 
 body{
+    background-color: #367f9d;
     font-family: 'Robato', sans-serif;
     display:flex;
     justify-content: center;
@@ -10,18 +15,23 @@ body{
 
 .wrapper{
     display: grid;
-    background-image: linear-gradient(rgba(0, 98, 255, 0.609),rgba(0, 98, 255, 0.657));
-    height: 600px;
-    /* margin-top: 250px; */
+    background: #092936;
+    color:#f5ebe6;
+    height: 600px;    
     width: 300px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-right-color: #fd620f;
+    border-left-color: #fd620f;
 }
 
 h1 {
     text-align: center;
     margin-top: 3rem;
+    color: #f5ebe6;
 }
 
 .input{
@@ -44,8 +54,8 @@ h1 {
 }
 
 .btn1{
-    background: white;
-    color: #333333;
+    background: var(--orange);
+    color: var(--drkblue);
     padding: .4em;
     cursor: pointer;
     border: none;
@@ -55,8 +65,8 @@ h1 {
 }
 
 .btn2{
-    background: white;
-    color: #333333;
+    background: var(--orange);
+    color: var(--drkblue);
     padding: .4em 1.3em;
     cursor: pointer;
     border: none;    
@@ -66,8 +76,8 @@ h1 {
 }
 
 .btn3{
-    background: white;
-    color: #333333;
+    background: var(--orange);
+    color: var(--drkblue);
     padding: .4em 1.3em;
     cursor: pointer;
     border: none;    
@@ -77,8 +87,8 @@ h1 {
 }
 
 .btn4{
-    background: white;
-    color: #333333;
+    background: var(--orange);
+    color: var(--drkblue);
     padding: .4em 1.3em;
     cursor: pointer;
     border: none;    
@@ -88,8 +98,8 @@ h1 {
 }
 
 .btn5{
-    background: white;
-    color: #333333;
+    background: var(--orange);
+    color: var(--drkblue);
     padding: .4em 1.3em;
     cursor: pointer;    
     border: none;
