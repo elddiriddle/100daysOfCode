@@ -5,7 +5,18 @@ body{
     align-items: center;
     background: #000;
 }
-
+ .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(21, 141, 189, .50);
+    border-radius: 20px 20px 20px 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-right-color: #fd620f;
+    border-left-color: #fd620f;
+    width: 600px;
+ }
 #clock{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 5rem;
