@@ -27,4 +27,5 @@ body {
 
 .colorBtn:hover {
   background: var(--light);
+  color: var(--drkblue);
 }
