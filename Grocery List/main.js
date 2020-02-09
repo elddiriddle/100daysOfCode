@@ -20,6 +20,7 @@ function addToGroceryList(){
     list.innerHTML = text;
 }
 
+//-------------------------------------
 
 
 
@@ -29,8 +30,7 @@ function addToGroceryList(){
 
 
 
-
-console.log(groceryList)
+//console.log(groceryList)
 // document.getElementById("gList").innerHTML = groceryList;
 
 
